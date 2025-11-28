@@ -42,7 +42,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    border-radius: 20px;
+    border-radius: 30px;
     background: linear-gradient(black) content-box,
                 conic-gradient(from var(--rotate), black, rgb(215, 3, 208), black) border-box;
     /* border: 5px solid white; */
