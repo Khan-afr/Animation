@@ -47,7 +47,6 @@ body {
                 conic-gradient(from var(--rotate), black, rgb(215, 3, 208), black) border-box;
     /* border: 5px solid white; */
     margin: 10px;
-    cursor: pointer;
     animation: borderAnimate 5s infinite;
     
 }
