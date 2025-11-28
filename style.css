@@ -48,6 +48,7 @@ body {
     /* border: 5px solid white; */
     margin: 10px;
     cursor: pointer;
+    animation: borderAnimate 5s infinite;
     
 }
 
@@ -62,7 +63,4 @@ body {
     
 }
 
-.box:hover{
-    animation: borderAnimate 5s ;
 
-}
