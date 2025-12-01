@@ -43,12 +43,30 @@ body {
     flex-direction: column;
     gap: 10px;
     border-radius: 20px;
-    background: linear-gradient(black) content-box,
+    background: linear-gradient(black) padding-box,
                 conic-gradient(from var(--rotate), black, rgb(215, 3, 208), black) border-box;
-    /* border: 5px solid white; */
+    border: 0px solid rgba(255, 255, 255, 0);
     margin: 10px;
-    cursor: pointer;
+    animation: borderAnimate 5s infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+    transition: all 0.2s linear;
+    box-shadow: 0 0 0px  rgb(215, 3, 208) ;
+    color: white;
+    text-shadow: 0 0 0px rgb(215, 3, 208) ;
     
+}
+
+.box:hover{
+    animation-play-state: running;
+    border-width: 5px;
+    box-shadow: 0 0 50px  rgb(161, 8, 156) ;
+    color:  rgb(215, 3, 208);
+        text-shadow: 0 0 10px rgb(215, 3, 208) ;
+
+
+
+
 }
 
 .box img{
